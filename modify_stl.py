@@ -34,7 +34,7 @@ def rotate(mesh, rxyz, angle, file_name="rotate_test.stl"):
     elif rxyz[1] != 0:
         rotation = '_ry_'
     elif rxyz[2] != 0:
-        rotation = '_ry_'
+        rotation = '_rz_'
     else:
         rotation = ''
     rotation += str(angle)
